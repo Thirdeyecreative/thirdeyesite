@@ -106,7 +106,7 @@ function ProjectShowcaseGrid() {
   return (
     <div>
       {/* <CategoryFilterBar active={active} setActive={setActive} /> */}
-      <div className="max-w-[1232px] mx-auto px-4 py-10 grid gap-10 gap-y-15 md:grid-cols-2 mb-[8.75rem] pt-0 pb-0">
+      <div className="max-w-[1232px] mx-auto px-4 py-10 grid gap-10 gap-y-15 md:grid-cols-2 mb-[5rem] sm:mb-[8.75rem] pt-0 pb-0">
         {projects.length > 0 ? (
           projects.map((project) => (
             <div key={project.id} className="space-y-4 group">

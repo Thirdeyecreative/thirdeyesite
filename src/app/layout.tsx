@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import GradualBlurMemo from "@/components/GradualBlur";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next"
 // import Bottomblur from "./components/Bottomblur";
 
 export const metadata: Metadata = {
@@ -29,6 +30,7 @@ export default function RootLayout({
         {/* <Bottomblur /> */}
 
         <SpeedInsights />
+        <Analytics />
 
         <GradualBlurMemo
           target="page"

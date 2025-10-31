@@ -45,7 +45,7 @@ function PhotoGallary() {
   ];
 
   return (
-    <div className="relative   mt-[5rem] md:mt-[7rem] md:mb-[7rem] 2xl:mt-[9rem] 2xl:mb-[9rem] mb-[5rem]">
+    <div className="relative   mt-[0rem] md:mt-[7rem] md:mb-[7rem] 2xl:mt-[9rem] 2xl:mb-[9rem] mb-[0rem]">
       <div style={{ width: "100%" }} className="h-[500px]">
         <CircularGallery
           items={items2}
