@@ -1735,7 +1735,7 @@ strong {
   text-align: center;
   text-transform: uppercase;
   max-width: 831px;
-  margin: 0 auto 1rem auto;
+  margin: 0 auto 2rem auto;
   position: relative;
   z-index: 1;
 }
@@ -2210,13 +2210,13 @@ strong {
 }
 
 .our-approach-wrapper h3 {
-  margin-top: 1.2rem;
+  margin-top: 0rem;
 }
 
 .our-approach-wrapper .our-approach-content-wrapper p {
   max-width: 816px;
-  font-family: var(--font-family-sequel-sans-book);
-  font-weight: 600;
+  font-family: var(--font-family-sequel-sans-light-display);
+  font-weight: 400;
   font-size: 2.5rem;
   line-height: 56px;
   letter-spacing: 0%;

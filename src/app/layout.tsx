@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import GradualBlurMemo from "@/components/GradualBlur";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 // import Bottomblur from "./components/Bottomblur";
 
 export const metadata: Metadata = {
@@ -26,6 +27,8 @@ export default function RootLayout({
 
         {/* Glass morphism blur */}
         {/* <Bottomblur /> */}
+
+        <SpeedInsights />
 
         <GradualBlurMemo
           target="page"

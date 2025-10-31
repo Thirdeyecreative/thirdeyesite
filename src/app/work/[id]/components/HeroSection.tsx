@@ -18,7 +18,7 @@ function HeroSection({ data }) {
       </div>
 
       {/* Title */}
-      <h1 className="text-center text-4xl md:text-5xl font-semibold z-1 px-4 max-w-[1157px] work-single-page-hero-title mb-4">
+      <h1 className="text-center text-4xl md:text-5xl font-semibold z-1 px-4 max-w-[1157px] work-single-page-hero-title mb-8">
         {data.title}
       </h1>
 

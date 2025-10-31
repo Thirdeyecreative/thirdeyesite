@@ -25,7 +25,7 @@ function WhatsupHeroSection() {
           <div className="about-us-hero-section-content-wrapper-inner ">
             <div className=" about-us-hero-section-content-wrapper whatsup-hero-section">
               <h4 className="in-whatsup-section">
-                Where Creativity Fuels not just Ideas, but
+                Where Creativity Fuels not just Ideas,<br /> but
                 <span className="span-diffrent-color-2"> Experiences</span>
               </h4>
               <div className="about-us-hero-section-footer-wrapper">

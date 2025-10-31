@@ -1425,12 +1425,12 @@ const MagicBento: React.FC<BentoProps> = ({
                     </p>
                   </div>
                   {cardDatas.smartReports.image && (
-                    <div className="relative w-full max-h-[480px] ml-[3rem] my-auto h-auto aspect-[550/520]">
+                    <div className="relative w-full max-h-[480px] ml-[3rem] my-auto h-auto aspect-[550/520] ">
                       <Image
                         src={cardDatas.smartReports.image}
                         alt={cardDatas.smartReports.title}
                         fill
-                        className="rounded-lg "
+                        className="rounded-lg object-cover object-top"
                         sizes="(max-width: 768px) 100vw, 526px"
                       />
                     </div>
