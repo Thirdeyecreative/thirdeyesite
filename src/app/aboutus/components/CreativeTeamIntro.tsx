@@ -349,7 +349,7 @@ function CreativeTeamIntro() {
                     height={100}
                     className={`teem-members-icon-clickble transition-all duration-300 ${
                       item.id !== active ? "grayscale" : ""
-                    }`}
+                    } ${index === 8 && "scale-105" }`}
                   />
                 </div>
               </div>

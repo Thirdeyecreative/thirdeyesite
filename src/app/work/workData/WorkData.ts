@@ -138,7 +138,7 @@
         title: "Technology Backbone",
         description:
           "Built with custom IoT hardware, MQTT firmware, TimescaleDB backend, React frontend and scalable cloud on AWS/GCP",
-        image: "/assets/technologyBackbone-xplorean-ai.png",
+        image: "/assets/IoT Data Logger for EV Autos Scalable Battery Insights.png",
       },
       technicianCommandCenter: {
         title: "Complaint Validation",
@@ -404,7 +404,7 @@
         title: "Technology Backbone",
         description:
           "Built using a powerful tech stack including Flutter, Firebase,  Node.js and more.",
-        image: "/assets/Tech stack - in xplorean ai.png",
+        image: "/assets/Xplorion AI – Crafting Seamless, AI-Powered Travel Itineraries.png",
       },
 
       seamlessBluetoothIntegration: {
@@ -675,7 +675,7 @@
         title: "Technology Backbone",
         description:
           "Built using a powerful tech stack including Flutter, Firebase,  Node.js and more.",
-        image: "/assets/Tech stack - in stepgha.png",
+        image: "/assets/STEP.png",
       },
 
       seamlessBluetoothIntegration: {
@@ -813,7 +813,7 @@
       tags: ["Finops", "Reporting", "Reconciliation"],
       title: "Streamlining Cash Flow Oversight for Shell India Markets",
       footerimage:
-        "/assets/Streamlining Cash Flow Oversight for Shell India Markets.png",
+        "/assets/shellindia-gallery-image-1.png",
     },
     ExecutiveSummary:
       "Shell India Markets required a robust, centralized platform to seamlessly monitor and manage cash collections across hundreds of fuel retail outlets. We built a secure, PAN-India web application that empowers teams with real-time input, tracking, reconciliation, and comprehensive reporting. Today, this solution stands as a mission-critical backbone for Shell’s nationwide cash operations.",
@@ -997,7 +997,7 @@
           title: "Technology Backbone",
           description:
             "Built using a powerful tech stack including HTML CSS JS, PHP, PostgreSQL Managed DB and more.",
-          image: "/assets/Tech stack - in stepgha.png",
+          image: "/assets/Streamlining Cash Flow Oversight for Shell India Markets -2.png",
         },
         {
           icon: "/assets/shellindia-technologyBackbone-icon-3.png",
@@ -1040,7 +1040,7 @@
         title: "Technology Backbone",
         description:
           "Built using a powerful tech stack including HTML CSS JS, PHP, PostgreSQL Managed DB and more.",
-        image: "/assets/stepgha-solution-image-2.png",
+        image: "/assets/Streamlining Cash Flow Oversight for Shell India Markets -2.png",
       },
 
       technologyBackbone: {
@@ -1140,14 +1140,7 @@
       ],
     },
     gallery: [
-      {
-        type: "single",
-        image: "/assets/shellindia-gallery-image-1.png",
-      },
-      {
-        type: "single",
-        image: "/assets/shellindia-gallery-image-2.jpg",
-      },
+      
     ],
     testimonials: [],
   },
@@ -1286,7 +1279,7 @@
         title: "Technology Backbone",
         description:
           "Built using a powerful tech stack including Flutter, Firebase, GCP, and more.",
-        image: "/assets/technologyBackbone-xplorean-ai.png",
+        image: "/assets/End-to-End Design for Mesha’s Data Management Solution.png",
       },
       technicianCommandCenter: {
         title: "Technician Command Center",
@@ -1646,7 +1639,7 @@
         title: "Technology Backbone",
         description:
           "Built using a powerful tech stack including HTML CSS JS, PHP, PostgreSQL Managed DB and more.",
-        image: "/assets/stepgha-solution-image-2.png",
+        image: "/assets/Retail Cloud - Streamlining Digital Payments for Shell India.png",
       },
 
       technologyBackbone: {
@@ -1883,8 +1876,8 @@
       technologyBackbone: {
         title: "Technology Backbone",
         description:
-          "Built using a powerful tech stack including Flutter, Firebase,  Node.js and more.",
-        image: "/assets/technologyBackbone-xplorean-ai.png",
+          "Naren Electrix Built using a powerful tech stack including Flutter, Firebase,  Node.js and more.",
+        image: "/assets/Naren.png",
       },
       technicianCommandCenter: {
         title: "Offline Resilience",

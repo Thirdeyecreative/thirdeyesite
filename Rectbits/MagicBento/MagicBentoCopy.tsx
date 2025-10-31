@@ -878,7 +878,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                             alt={cardDatas.offlineFunctionality.title}
                             width={240}
                             height={280}
-                            className="w-100  h-[217px]  max-w-[230px] object-contain"
+                            className="w-100  h-[217px]  max-w-[230px] object-cover object-top"
                           />
                         </div>
                       )}
@@ -1029,7 +1029,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                           alt={cardDatas.realTimeDiagnostics.title}
                           width={230}
                           height={280}
-                          className="w-100  h-[217px]  max-w-[230px] object-contain block mx-auto"
+                          className="w-100  h-[217px]  max-w-[230px] object-cover object-top block mx-auto"
                         />
                       </div>
                     )}
@@ -1168,7 +1168,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                         src={cardDatas.seamlessBluetoothIntegration.image}
                         alt="Bluetooth Integration"
                         fill
-                        className="max-h-[280px] "
+                        className="max-h-[280px] object-cover "
                       />
                     </div>
                   </div>
@@ -1301,7 +1301,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                       <img
                         src={cardDatas.technologyBackbone.image}
                         alt={cardDatas.technologyBackbone.title}
-                        className=" object-cover w-100  h-full max-w-[500px]  max-h-[252px] single-work-page-objectives-real-time-diagnostics-description-image"
+                        className=" object-cover object-top w-100  h-full max-w-[500px]  max-h-[252px] single-work-page-objectives-real-time-diagnostics-description-image"
                       />
                     </div>
                   </div>
@@ -1435,7 +1435,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                         src={cardDatas.technicianCommandCenter.image}
                         alt="Command Center"
                         fill
-                        className="max-h-[300px]"
+                        className="max-h-[300px] object-cover"
                       />
                     </div>
                   </div>
@@ -1575,7 +1575,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                           alt={cardDatas.cloudPoweredAnalytics.title}
                           width={240}
                           height={280}
-                          className="w-full h-[217px]   block ml-auto "
+                          className="w-full h-[217px]   block ml-auto  object-cover object-top"
                         />
                       </div>
                     )}
@@ -1712,7 +1712,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                           alt={cardDatas.automatedReporting.title}
                           width={240}
                           height={280}
-                          className="w-100 h-[217px]  block mx-auto"
+                          className="w-100 h-[217px]  block mx-auto object-cover object-top"
                         />
                       </div>
                     )}
@@ -1858,7 +1858,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                             alt={cardDatas.offlineFunctionality.title}
                             width={304}
                             height={280}
-                            className=""
+                            className="object-cover object-top"
                           />
                         </div>
                       )}
@@ -1998,7 +1998,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                           alt={cardDatas.realTimeDiagnostics.title}
                           width={304}
                           height={280}
-                          className=""
+                          className="object-cover object-top"
                         />
                       </div>
                     )}
@@ -2122,14 +2122,14 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                     el.addEventListener("click", handleClick);
                   }}
                 >
-                  <div className="bg-[rgba(255,255,255,0.1)] rounded-2xl p-[3rem] pb-0 h-full shadow-lg overflow-hidden">
+                  <div className="bg-[rgba(255,255,255,0.1)] rounded-2xl p-[3rem] pb-0 h-full shadow-lg overflow-hidden flex flex-col justify-between">
                     <h3 className="text-xl font-semibold mb-3 single-page-solution-cards-title">
                       {cardDatas.technologyBackbone.title}
                     </h3>
                     <p className="text-sm text-gray-400 single-work-page-objectives-real-time-diagnostics-description">
                       {cardDatas.technologyBackbone.description}
                     </p>
-                    <div className="relative w-full h-full -ml-13  rounded-lg overflow-hidden indevisual-page-solution-cards-image-container">
+                    <div className="relative w-full h-full -ml-13 mt-6  rounded-lg overflow-hidden indevisual-page-solution-cards-image-container">
                       <Image
                         src={cardDatas.technologyBackbone.image}
                         alt="Technology Stack"
@@ -2272,7 +2272,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                           src={cardDatas.seamlessBluetoothIntegration.image}
                           alt="Bluetooth Integration"
                           fill
-                          className="max-h-[280px] "
+                          className="max-h-[280px]  object-cover"
                         />
                       </div>
                     </div>
@@ -2408,7 +2408,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                           src={cardDatas.technicianCommandCenter.image}
                           alt="Command Center"
                           fill
-                          className="max-h-[300px]"
+                          className="max-h-[300px] object-cover"
                         />
                       </div>
                     </div>
@@ -2552,7 +2552,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                             alt={cardDatas.cloudPoweredAnalytics.title}
                             width={400}
                             height={280}
-                            className=" max-h-[235px] "
+                            className=" max-h-[235px]  object-cover object-top"
                           />
                         </div>
                       )}
@@ -2694,7 +2694,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                             alt={cardDatas.automatedReporting.title}
                             width={400}
                             height={280}
-                            className="max-h-[235px] ml-[24px]"
+                            className="max-h-[235px] ml-[24px] object-cover object-top"
                           />
                         </div>
                       )}
@@ -2835,7 +2835,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                             alt={cardDatas.SaveandEditPlans.title}
                             width={400}
                             height={280}
-                            className="ml-[24px] max-h-[235px]"
+                            className="ml-[24px] max-h-[235px] object-cover object-top"
                           />
                         </div>
                       )}
@@ -2977,7 +2977,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                         el.addEventListener("click", handleClick);
                       }}
                     >
-                      <div className="flex-1 p-6 bg-[rgba(255,255,255,0.1)] shadow-xl flex items-start justify-center">
+                      <div className="flex-1 p-6 pb-6 sm:pb-0 bg-[rgba(255,255,255,0.1)] shadow-xl flex items-start justify-center">
                         <div>
                           {cardColumn.icon && (
                             <Image
@@ -3147,7 +3147,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                             alt={cardDatas.offlineFunctionality.title}
                             width={304}
                             height={280}
-                            className=""
+                            className="object-cover object-top"
                           />
                         </div>
                       )}
@@ -3287,7 +3287,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                           alt={cardDatas.realTimeDiagnostics.title}
                           width={304}
                           height={280}
-                          className=""
+                          className="object-cover object-top"
                         />
                       </div>
                     )}
@@ -3552,11 +3552,11 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                     <p className="text-sm text-gray-400 single-work-page-objectives-real-time-diagnostics-description">
                       {cardDatas.technologyBackbone.description}
                     </p>
-                    <div className="relative w-full h-[252px] -ml-6 rounded-lg overflow-hidden option-4-card-image  -bottom-5">
+                    <div className="relative w-full  -ml-6 rounded-lg overflow-hidden option-4-card-image  bottom-0">
                       <img
                         src={cardDatas.technologyBackbone.image}
                         alt={cardDatas.technologyBackbone.title}
-                        className=" object-contain w-full  h-full max-w-[500px]  max-h-[252px]  "
+                        className=" "
                       />
                     </div>
                   </div>
@@ -3690,7 +3690,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                         src={cardDatas.technicianCommandCenter.image}
                         alt="Command Center"
                         fill
-                        className="max-h-[300px]"
+                        className="max-h-[300px] object-cover"
                       />
                     </div>
                   </div>
@@ -3828,7 +3828,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                           alt={cardDatas.cloudPoweredAnalytics.title}
                           width={240}
                           height={280}
-                          className="w-full h-[217px]   block ml-auto "
+                          className="w-full h-[217px]   block ml-auto object-cover object-top"
                         />
                       </div>
                     )}
@@ -3965,7 +3965,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                           alt={cardDatas.automatedReporting.title}
                           width={240}
                           height={280}
-                          className="w-100 h-[217px]  block mx-auto"
+                          className="w-100 h-[217px]  block mx-auto object-cover object-top"
                         />
                       </div>
                     )}

@@ -877,7 +877,7 @@ const MagicBento: React.FC<BentoProps> = ({
                       alt={cardDatas.realTimeDiagnostics.title}
                       width={800}
                       height={386}
-                      className="w-fit  h-full max-h-[400px] rounded-lg mx-auto object-contain -mb-9 "
+                      className="w-fit  h-full max-h-[400px] rounded-lg mx-auto object-cover object-top -mb-9 "
                     />
                   </div>
                 )}
@@ -1021,7 +1021,7 @@ const MagicBento: React.FC<BentoProps> = ({
                             alt={cardDatas.upsConnectivity.title}
                             width={800}
                             height={386}
-                            className="w-full h-full rounded-lg"
+                            className="w-full h-full rounded-lg object-cover object-top"
                           />
                         </div>
                       )}

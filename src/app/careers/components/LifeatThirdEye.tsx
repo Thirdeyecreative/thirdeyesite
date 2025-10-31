@@ -40,7 +40,7 @@ function LifeatThirdEye() {
         A culture of curiosity, collaboration & work 
       </p>
 
-      <div className="bg-black text-white py-0 pt-[5rem] px-4 md:px-10 max-w-[1262px] mx-auto mb-[3.75rem] lifeatthird-eye-values-wrapper md:mb-[4.75rem] lg:mb-[8.75rem]">
+      <div className="bg-black text-white py-0 pt-[5rem] px-4 md:px-10 max-w-[1262px] mx-auto mb-[3.75rem] lifeatthird-eye-values-wrapper md:mb-[4.75rem] lg:mb-[0.75rem]">
         {values.map((item, idx) => (
           <div key={idx} className="">
             <div className="flex flex-col sm:flex-row sm:items-start gap-4 sm:gap-6 justify-stretch">

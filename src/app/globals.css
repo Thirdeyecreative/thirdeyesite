@@ -5323,6 +5323,9 @@ strong {
     min-height: 1000px; */
   }
 
+
+ 
+
   .footer-section .footer-text-2 {
     top: 23.5rem;
   }
@@ -5350,6 +5353,10 @@ strong {
     max-width: 100%;
     /* max-height: 1400px;
     min-height: 1400px; */
+  }
+
+   .our-approach-wrapper{
+    padding: 14.444vh 2.417vw 3rem 2.417vw;
   }
 
   .about-us-hero-section-content-wrapper,

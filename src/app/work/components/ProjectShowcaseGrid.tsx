@@ -47,16 +47,16 @@ const projects: Project[] = [
     description:
       "A NEET PG prep app designed for serious med aspirants on the go. We built a structured, distraction-free interface for focus and performance.",
   },
-  {
-    id: 8,
-    image: "/assets/project3.png",
+  // {
+  //   id: 8,
+  //   image: "/assets/project3.png",
 
-    categories: ["Real Estate Website", "UI/UX Design", "Web Development"],
-    title: "Urbando — Artfully Engineered Living",
-    flag: "project",
-    description:
-      " A sleek, responsive website designed to showcase Urbando’s premium homes with elegance and ease. We blended visual minimalism with high-conversion layouts for a refined user experience.",
-  },
+  //   categories: ["Real Estate Website", "UI/UX Design", "Web Development"],
+  //   title: "Urbando — Artfully Engineered Living",
+  //   flag: "project",
+  //   description:
+  //     " A sleek, responsive website designed to showcase Urbando’s premium homes with elegance and ease. We blended visual minimalism with high-conversion layouts for a refined user experience.",
+  // },
   {
     id: 4,
     image: "/assets/shellindia-gallery-image-2.jpg",
