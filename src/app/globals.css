@@ -4067,7 +4067,7 @@ strong {
     line-height: 100%;
   }
 
-  .open-roles-wrapper .open-roles-wrapper-desc {
+  .open-roles-wrapper .open-roles-wrapper-desc ,.scroll-reveal-text-wrapper{
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -4080,6 +4080,12 @@ strong {
   .indevisual-page-problem-statement-icon-container {
     border-left: none;
     padding: 0.8rem;
+  }
+
+  .scroll-reveal-text-wrapper{
+    font-size: 1.85rem;
+    /* text-align: center; */
+    line-height: 110%;
   }
 
   .our-expertise-wrapper {
