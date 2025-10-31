@@ -3556,7 +3556,7 @@ const MagicBentoCopy: React.FC<BentoProps> = ({
                       <img
                         src={cardDatas.technologyBackbone.image}
                         alt={cardDatas.technologyBackbone.title}
-                        className=" "
+                        className="  object-cover object-top  "
                       />
                     </div>
                   </div>
